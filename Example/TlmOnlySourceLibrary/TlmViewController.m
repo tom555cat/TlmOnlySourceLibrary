@@ -7,6 +7,7 @@
 //
 
 #import "TlmViewController.h"
+#import "TestClassA.h"
 
 @interface TlmViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [TestClassA testMethod];
 }
 
 - (void)didReceiveMemoryWarning
