@@ -1,0 +1,16 @@
+PODS:
+  - TlmOnlySourceLibrary (0.1.0)
+
+DEPENDENCIES:
+  - TlmOnlySourceLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  TlmOnlySourceLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TlmOnlySourceLibrary: f32a30220a79c9a224015e08d98f9760093ca501
+
+PODFILE CHECKSUM: d2a5186a5512feac5178ae7d8df0765beb3f4904
+
+COCOAPODS: 1.4.0

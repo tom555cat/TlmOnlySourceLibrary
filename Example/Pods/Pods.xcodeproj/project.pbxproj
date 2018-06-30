@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5AB8D84A5006F410178E3DB696E8DF /* Pods-TlmOnlySourceLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE37502C7D3446FAB40581FBC0006A9F /* Pods-TlmOnlySourceLibrary_Tests-dummy.m */; };
+		8EF5987C20E787F000A8CA89 /* TestClassA.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF5987A20E787F000A8CA89 /* TestClassA.h */; };
+		8EF5987D20E787F000A8CA89 /* TestClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5987B20E787F000A8CA89 /* TestClassA.m */; };
+		9248AA8BEC271AE8DC1455879CB4D18A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0AEE4A09B30C55CAB4BE7077F8E650 /* ReplaceMe.m */; };
+		A30A43EAC9D6C81E3AA1E217CDAF5898 /* Pods-TlmOnlySourceLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A09518DC5A95F105D103E032C9F0BB /* Pods-TlmOnlySourceLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2A2C4C0C70EF9B33872A2D77780BA03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BE7A095E9A52F1FD82560ACAC4B83940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C151523F7DAB036F29ED47521D733018 /* TlmOnlySourceLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 130526886080600C2530153000B7EDA8 /* TlmOnlySourceLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9978FD6280234B7AD8C740F7D0523F8 /* Pods-TlmOnlySourceLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9E028EF65B1BB2EF6B2611C678779C /* Pods-TlmOnlySourceLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCCFA4394738A21A812847D4C3EDF1BA /* Pods-TlmOnlySourceLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 198701FB7DE9F8713C1FB9F8CD30A750 /* Pods-TlmOnlySourceLibrary_Example-dummy.m */; };
+		E9EDDD1276447F88C753C173C6120EA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FF6C82E55347834537983E141952EC00 /* TlmOnlySourceLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 481ECA86C1BB20F2494D2C4DE624444C /* TlmOnlySourceLibrary-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4572EBB101AC0FE919CCA7A0460E4940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D908D27A766BF8BE78F36FEDA81214E;
+			remoteInfo = TlmOnlySourceLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0409AE34A6057902713000C2BA707448 /* Pods-TlmOnlySourceLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TlmOnlySourceLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		130526886080600C2530153000B7EDA8 /* TlmOnlySourceLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TlmOnlySourceLibrary-umbrella.h"; sourceTree = "<group>"; };
+		132880DF51E6E75AE9F939C7CB2272BA /* Pods-TlmOnlySourceLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TlmOnlySourceLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		198701FB7DE9F8713C1FB9F8CD30A750 /* Pods-TlmOnlySourceLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TlmOnlySourceLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		1A199568DEFF8E7C7D738EF483D49C38 /* Pods-TlmOnlySourceLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmOnlySourceLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1B26A0EEDD5B6FA79793732CB8B09536 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F49947A6AE855A44ED010917A74DDB1 /* Pods-TlmOnlySourceLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TlmOnlySourceLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20EABEF6E0FA27EE4F53AC5C57D34741 /* Pods-TlmOnlySourceLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmOnlySourceLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		378E415F094858C7B26C8E401E8F5F77 /* Pods-TlmOnlySourceLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmOnlySourceLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3F466DBBD093C438FF1B824C21C263B2 /* Pods_TlmOnlySourceLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TlmOnlySourceLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		481ECA86C1BB20F2494D2C4DE624444C /* TlmOnlySourceLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TlmOnlySourceLibrary-dummy.m"; sourceTree = "<group>"; };
+		5C6C87D2AFD97F54CA5464C39E10E089 /* Pods-TlmOnlySourceLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmOnlySourceLibrary_Example-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68E42035AD01D34C48B5B41AC1AED983 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9DC53FB2D67E1253F476F928EC5787 /* Pods-TlmOnlySourceLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TlmOnlySourceLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		748A8A52BA5876C598CFD52468C6CC15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		75F418AD015CEF1E9E4352D088CA0AD2 /* TlmOnlySourceLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TlmOnlySourceLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E85DE88C1053576CE72920D3F47264 /* Pods-TlmOnlySourceLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TlmOnlySourceLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
+		896D710762FE037CD71C556902016988 /* Pods_TlmOnlySourceLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TlmOnlySourceLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF5987A20E787F000A8CA89 /* TestClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClassA.h; sourceTree = "<group>"; };
+		8EF5987B20E787F000A8CA89 /* TestClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClassA.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9E028EF65B1BB2EF6B2611C678779C /* Pods-TlmOnlySourceLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TlmOnlySourceLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		B1B526B9B548854FF86E97358450A27A /* Pods-TlmOnlySourceLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TlmOnlySourceLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		BD0AEE4A09B30C55CAB4BE7077F8E650 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TlmOnlySourceLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C17625538FEDC8A3B3090F10BFD8C96E /* Pods-TlmOnlySourceLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmOnlySourceLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C5514D56D88DF4082E2A123EECF3B678 /* Pods-TlmOnlySourceLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmOnlySourceLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE3AC50AA1216B497D99E02F4A8EA7C9 /* Pods-TlmOnlySourceLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TlmOnlySourceLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CEF2C87AF1A5E12F36D115909655FA3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D1167C20AF6A00C2E3C832A70EAF0479 /* TlmOnlySourceLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TlmOnlySourceLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DAA2F905D0C833BB50014345C58B7473 /* TlmOnlySourceLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TlmOnlySourceLibrary.xcconfig; sourceTree = "<group>"; };
+		E61F07DECEF6264CBC6824110548F6A8 /* Pods-TlmOnlySourceLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TlmOnlySourceLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8A09518DC5A95F105D103E032C9F0BB /* Pods-TlmOnlySourceLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TlmOnlySourceLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F94CA8A671D31993F3690482EBC4DB15 /* TlmOnlySourceLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TlmOnlySourceLibrary.modulemap; sourceTree = "<group>"; };
+		FE37502C7D3446FAB40581FBC0006A9F /* Pods-TlmOnlySourceLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TlmOnlySourceLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		FEDD42F6899FC50510DB5FAB7320D38F /* TlmOnlySourceLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TlmOnlySourceLibrary-prefix.pch"; sourceTree = "<group>"; };
+		FEEAE723D73746A90A4818B20D7F8EAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59FF4D73897BE90C6124A2EEC47238F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EDDD1276447F88C753C173C6120EA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA46318A763974028406AADB75254FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A2C4C0C70EF9B33872A2D77780BA03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99BFB4F2047AC65385E96029D4364E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7A095E9A52F1FD82560ACAC4B83940 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266BB8361B25DD8319CA7B11EAC8817B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				418759EA22C871C34FDE45CE5934B2A9 /* Pods-TlmOnlySourceLibrary_Example */,
+				7A8781CBB56B32EAA6EE6E32AD1A01D5 /* Pods-TlmOnlySourceLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E73A21165C3882417458080212B58DE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CCE2DDCF94F966952AA0DF62F0FB361 /* TlmOnlySourceLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		418759EA22C871C34FDE45CE5934B2A9 /* Pods-TlmOnlySourceLibrary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FEEAE723D73746A90A4818B20D7F8EAD /* Info.plist */,
+				6F9DC53FB2D67E1253F476F928EC5787 /* Pods-TlmOnlySourceLibrary_Example.modulemap */,
+				0409AE34A6057902713000C2BA707448 /* Pods-TlmOnlySourceLibrary_Example-acknowledgements.markdown */,
+				132880DF51E6E75AE9F939C7CB2272BA /* Pods-TlmOnlySourceLibrary_Example-acknowledgements.plist */,
+				198701FB7DE9F8713C1FB9F8CD30A750 /* Pods-TlmOnlySourceLibrary_Example-dummy.m */,
+				20EABEF6E0FA27EE4F53AC5C57D34741 /* Pods-TlmOnlySourceLibrary_Example-frameworks.sh */,
+				5C6C87D2AFD97F54CA5464C39E10E089 /* Pods-TlmOnlySourceLibrary_Example-resources.sh */,
+				9E9E028EF65B1BB2EF6B2611C678779C /* Pods-TlmOnlySourceLibrary_Example-umbrella.h */,
+				378E415F094858C7B26C8E401E8F5F77 /* Pods-TlmOnlySourceLibrary_Example.debug.xcconfig */,
+				CE3AC50AA1216B497D99E02F4A8EA7C9 /* Pods-TlmOnlySourceLibrary_Example.release.xcconfig */,
+			);
+			name = "Pods-TlmOnlySourceLibrary_Example";
+			path = "Target Support Files/Pods-TlmOnlySourceLibrary_Example";
+			sourceTree = "<group>";
+		};
+		47EC7B32AE45DEA6F4BB0808762F9E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				896D710762FE037CD71C556902016988 /* Pods_TlmOnlySourceLibrary_Example.framework */,
+				3F466DBBD093C438FF1B824C21C263B2 /* Pods_TlmOnlySourceLibrary_Tests.framework */,
+				75F418AD015CEF1E9E4352D088CA0AD2 /* TlmOnlySourceLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A8781CBB56B32EAA6EE6E32AD1A01D5 /* Pods-TlmOnlySourceLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				68E42035AD01D34C48B5B41AC1AED983 /* Info.plist */,
+				B1B526B9B548854FF86E97358450A27A /* Pods-TlmOnlySourceLibrary_Tests.modulemap */,
+				1F49947A6AE855A44ED010917A74DDB1 /* Pods-TlmOnlySourceLibrary_Tests-acknowledgements.markdown */,
+				E61F07DECEF6264CBC6824110548F6A8 /* Pods-TlmOnlySourceLibrary_Tests-acknowledgements.plist */,
+				FE37502C7D3446FAB40581FBC0006A9F /* Pods-TlmOnlySourceLibrary_Tests-dummy.m */,
+				1A199568DEFF8E7C7D738EF483D49C38 /* Pods-TlmOnlySourceLibrary_Tests-frameworks.sh */,
+				80E85DE88C1053576CE72920D3F47264 /* Pods-TlmOnlySourceLibrary_Tests-resources.sh */,
+				E8A09518DC5A95F105D103E032C9F0BB /* Pods-TlmOnlySourceLibrary_Tests-umbrella.h */,
+				C5514D56D88DF4082E2A123EECF3B678 /* Pods-TlmOnlySourceLibrary_Tests.debug.xcconfig */,
+				C17625538FEDC8A3B3090F10BFD8C96E /* Pods-TlmOnlySourceLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-TlmOnlySourceLibrary_Tests";
+			path = "Target Support Files/Pods-TlmOnlySourceLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2E73A21165C3882417458080212B58DE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				47EC7B32AE45DEA6F4BB0808762F9E23 /* Products */,
+				266BB8361B25DD8319CA7B11EAC8817B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		894505795E1C1A530F8F1B240C643549 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B26A0EEDD5B6FA79793732CB8B09536 /* Info.plist */,
+				F94CA8A671D31993F3690482EBC4DB15 /* TlmOnlySourceLibrary.modulemap */,
+				DAA2F905D0C833BB50014345C58B7473 /* TlmOnlySourceLibrary.xcconfig */,
+				481ECA86C1BB20F2494D2C4DE624444C /* TlmOnlySourceLibrary-dummy.m */,
+				FEDD42F6899FC50510DB5FAB7320D38F /* TlmOnlySourceLibrary-prefix.pch */,
+				130526886080600C2530153000B7EDA8 /* TlmOnlySourceLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TlmOnlySourceLibrary";
+			sourceTree = "<group>";
+		};
+		8CCE2DDCF94F966952AA0DF62F0FB361 /* TlmOnlySourceLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BD0AEE4A09B30C55CAB4BE7077F8E650 /* ReplaceMe.m */,
+				E20A8E5F975C0FAE47EE387FFADF891F /* Pod */,
+				894505795E1C1A530F8F1B240C643549 /* Support Files */,
+				8EF5987A20E787F000A8CA89 /* TestClassA.h */,
+				8EF5987B20E787F000A8CA89 /* TestClassA.m */,
+			);
+			name = TlmOnlySourceLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E20A8E5F975C0FAE47EE387FFADF891F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CEF2C87AF1A5E12F36D115909655FA3A /* LICENSE */,
+				748A8A52BA5876C598CFD52468C6CC15 /* README.md */,
+				D1167C20AF6A00C2E3C832A70EAF0479 /* TlmOnlySourceLibrary.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12FF6A1BA2863845354AD38A0B743B78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C151523F7DAB036F29ED47521D733018 /* TlmOnlySourceLibrary-umbrella.h in Headers */,
+				8EF5987C20E787F000A8CA89 /* TestClassA.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D484E0A3C9EFEEA510E004DC91FB075 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9978FD6280234B7AD8C740F7D0523F8 /* Pods-TlmOnlySourceLibrary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846106D63FB9F888FD983ABFF7E7E87B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30A43EAC9D6C81E3AA1E217CDAF5898 /* Pods-TlmOnlySourceLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D908D27A766BF8BE78F36FEDA81214E /* TlmOnlySourceLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C418CB80E4267700F2B1AC4EA06B947 /* Build configuration list for PBXNativeTarget "TlmOnlySourceLibrary" */;
+			buildPhases = (
+				B2E499AEE72AC783F4336F098FBF21D2 /* Sources */,
+				8CA46318A763974028406AADB75254FA /* Frameworks */,
+				12FF6A1BA2863845354AD38A0B743B78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TlmOnlySourceLibrary;
+			productName = TlmOnlySourceLibrary;
+			productReference = 75F418AD015CEF1E9E4352D088CA0AD2 /* TlmOnlySourceLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7EED90B87AA2A3148ED77F25AA3EE7EF /* Pods-TlmOnlySourceLibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4621EE38579003AC6C989A119AFE0A3D /* Build configuration list for PBXNativeTarget "Pods-TlmOnlySourceLibrary_Example" */;
+			buildPhases = (
+				42579AE8DC778B2D875FAEB479F0166F /* Sources */,
+				C99BFB4F2047AC65385E96029D4364E2 /* Frameworks */,
+				4D484E0A3C9EFEEA510E004DC91FB075 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7265639CD948823538D3EF26477CF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TlmOnlySourceLibrary_Example";
+			productName = "Pods-TlmOnlySourceLibrary_Example";
+			productReference = 896D710762FE037CD71C556902016988 /* Pods_TlmOnlySourceLibrary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE312E52745B6DC6EAA3DBCA66AC7AFE /* Pods-TlmOnlySourceLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D83EA24A78FCD36A0939FBAA0508011C /* Build configuration list for PBXNativeTarget "Pods-TlmOnlySourceLibrary_Tests" */;
+			buildPhases = (
+				DB14A1CA118D0DC3DAC7755C3B7FCD44 /* Sources */,
+				59FF4D73897BE90C6124A2EEC47238F9 /* Frameworks */,
+				846106D63FB9F888FD983ABFF7E7E87B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TlmOnlySourceLibrary_Tests";
+			productName = "Pods-TlmOnlySourceLibrary_Tests";
+			productReference = 3F466DBBD093C438FF1B824C21C263B2 /* Pods_TlmOnlySourceLibrary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 47EC7B32AE45DEA6F4BB0808762F9E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EED90B87AA2A3148ED77F25AA3EE7EF /* Pods-TlmOnlySourceLibrary_Example */,
+				EE312E52745B6DC6EAA3DBCA66AC7AFE /* Pods-TlmOnlySourceLibrary_Tests */,
+				3D908D27A766BF8BE78F36FEDA81214E /* TlmOnlySourceLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42579AE8DC778B2D875FAEB479F0166F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCCFA4394738A21A812847D4C3EDF1BA /* Pods-TlmOnlySourceLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E499AEE72AC783F4336F098FBF21D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9248AA8BEC271AE8DC1455879CB4D18A /* ReplaceMe.m in Sources */,
+				FF6C82E55347834537983E141952EC00 /* TlmOnlySourceLibrary-dummy.m in Sources */,
+				8EF5987D20E787F000A8CA89 /* TestClassA.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB14A1CA118D0DC3DAC7755C3B7FCD44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5AB8D84A5006F410178E3DB696E8DF /* Pods-TlmOnlySourceLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F7265639CD948823538D3EF26477CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TlmOnlySourceLibrary;
+			target = 3D908D27A766BF8BE78F36FEDA81214E /* TlmOnlySourceLibrary */;
+			targetProxy = 4572EBB101AC0FE919CCA7A0460E4940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F0539244BC1786E28948181ADD881BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA2F905D0C833BB50014345C58B7473 /* TlmOnlySourceLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TlmOnlySourceLibrary/TlmOnlySourceLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TlmOnlySourceLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TlmOnlySourceLibrary/TlmOnlySourceLibrary.modulemap";
+				PRODUCT_NAME = TlmOnlySourceLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5212E4644F4D8B1B2E336626072C6B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3AC50AA1216B497D99E02F4A8EA7C9 /* Pods-TlmOnlySourceLibrary_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TlmOnlySourceLibrary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TlmOnlySourceLibrary_Example/Pods-TlmOnlySourceLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TlmOnlySourceLibrary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A04F3237D4D753C24CE807159C1F12A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA2F905D0C833BB50014345C58B7473 /* TlmOnlySourceLibrary.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TlmOnlySourceLibrary/TlmOnlySourceLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TlmOnlySourceLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TlmOnlySourceLibrary/TlmOnlySourceLibrary.modulemap";
+				PRODUCT_NAME = TlmOnlySourceLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA73AB2B36837BDC6A6FA87789F3AD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17625538FEDC8A3B3090F10BFD8C96E /* Pods-TlmOnlySourceLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TlmOnlySourceLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TlmOnlySourceLibrary_Tests/Pods-TlmOnlySourceLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TlmOnlySourceLibrary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D68B86DA107F929BAC08A8D105688BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378E415F094858C7B26C8E401E8F5F77 /* Pods-TlmOnlySourceLibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TlmOnlySourceLibrary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TlmOnlySourceLibrary_Example/Pods-TlmOnlySourceLibrary_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TlmOnlySourceLibrary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB1D09DB45DC750043DACE3BE38155D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5514D56D88DF4082E2A123EECF3B678 /* Pods-TlmOnlySourceLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TlmOnlySourceLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TlmOnlySourceLibrary_Tests/Pods-TlmOnlySourceLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TlmOnlySourceLibrary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4621EE38579003AC6C989A119AFE0A3D /* Build configuration list for PBXNativeTarget "Pods-TlmOnlySourceLibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D68B86DA107F929BAC08A8D105688BC7 /* Debug */,
+				5212E4644F4D8B1B2E336626072C6B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C418CB80E4267700F2B1AC4EA06B947 /* Build configuration list for PBXNativeTarget "TlmOnlySourceLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0539244BC1786E28948181ADD881BD /* Debug */,
+				A04F3237D4D753C24CE807159C1F12A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D83EA24A78FCD36A0939FBAA0508011C /* Build configuration list for PBXNativeTarget "Pods-TlmOnlySourceLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1D09DB45DC750043DACE3BE38155D6 /* Debug */,
+				CA73AB2B36837BDC6A6FA87789F3AD96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

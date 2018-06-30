@@ -1,0 +1,22 @@
+{
+  "name": "TlmOnlySourceLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of TlmOnlySourceLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tongleiming1989@sina.com/TlmOnlySourceLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tongleiming1989@sina.com": "tongleiming@corp.rrzcp8.com"
+  },
+  "source": {
+    "git": "https://github.com/tongleiming1989@sina.com/TlmOnlySourceLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TlmOnlySourceLibrary/Classes/**/*"
+}
