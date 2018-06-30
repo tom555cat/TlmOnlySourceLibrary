@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TlmOnlySourceLibrary_Example' do
+  pod 'TlmOnlySourceLibrary', :path => '../'
+
+  target 'TlmOnlySourceLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
